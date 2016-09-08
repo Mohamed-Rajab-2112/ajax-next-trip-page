@@ -5,7 +5,7 @@
   ,
   ".russia": { "Weather": 5, "FlightTime": "7/9/2016 6:00pm +2GMT", "image01": "russia01.jpg", "image02": "russia02.jpg", "image03": "russia03.jpg", "nightPrice": "700" }
   ,
-  ".china": { "Weather": 10, "FlightTime": "9/9/2016 6:00pm +2GMT", "image01": "china01.jpg", "image02": "china02.jpg", "image03": "china03.png", "nightPrice": "500" }
+  ".china": { "Weather": 10, "FlightTime": "9/9/2016 6:00pm +2GMT", "image01": "china01.jpg", "image02": "china02.jpg", "image03": "china03.jpg", "nightPrice": "500" }
   ,
   ".france": { "Weather": 11, "FlightTime": "17/9/2016 6:00pm +2GMT", "image01": "france01.jpg", "image02": "france02.jpg", "image03": "france03.jpg", "nightPrice": "850" }
   ,
