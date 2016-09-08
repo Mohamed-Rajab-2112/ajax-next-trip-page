@@ -1,0 +1,13 @@
+{
+  ".emirates": { "Weather": 40, "FlightTime": "15/9/2016 4:00pm +2GMT", "image01": "emirates01.jpg", "image02": "emirates02.jpg", "image03": "emirates03.jpg", "nightPrice": "1000"}
+  ,
+  ".morocco": { "Weather": 30, "FlightTime": "13/9/2016 7:00pm +2GMT", "image01": "morocco01.jpg", "image02": "morocco02.jpg", "image03": "morocco03.jpg", "nightPrice": "600" }
+  ,
+  ".russia": { "Weather": 5, "FlightTime": "7/9/2016 6:00pm +2GMT", "image01": "russia01.jpg", "image02": "russia02.jpg", "image03": "russia03.jpg", "nightPrice": "700" }
+  ,
+  ".china": { "Weather": 10, "FlightTime": "9/9/2016 6:00pm +2GMT", "image01": "china01.jpg", "image02": "china02.jpg", "image03": "china03.png", "nightPrice": "500" }
+  ,
+  ".france": { "Weather": 11, "FlightTime": "17/9/2016 6:00pm +2GMT", "image01": "france01.jpg", "image02": "france02.jpg", "image03": "france03.jpg", "nightPrice": "850" }
+  ,
+  ".england": { "Weather": 8, "FlightTime": "10/9/2016 6:00pm +2GMT", "image01": "england01.jpg", "image02": "england02.jpg", "image03": "england03.jpg", "nightPrice": "850" }
+}

@@ -1,0 +1,141 @@
+<!--
+///////////////////////////////////////////////////////////
+//*******************************************************//
+//*       code for interactive simple trip page using   *//
+//*      HTML - CSS - SASS - BOOTSTRAP - JQUERY - AJAX  *//
+//*                   BY/ MOHAMED RAGAB 
+//*the design is optimized to be 1.5mb at full Ajax calls while less than 300kb at first load
+//*******************************************************//
+///////////////////////////////////////////////////////////
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  </head>
+  <body>
+    <!--
+**************************************
+HEADER
+**************************************
+-->
+    <header class="text-center">
+      <h1>NEXT TRIP</h1>
+      <p>Go where you always dreamed</p>
+      <p>THIS PROJECT DONE AS A TRAINING ON AJAX CALLS BY/MOHAMED RAGAB <br>
+        intial page size less than 300kb</p>
+    </header>
+    <!--
+**************************************
+EMIRATES
+**************************************
+--> 
+    <div class="container text-center">
+      <div class="row">
+        <section class="emirates country col-md-5" data-go-back-price=6000 data-go-only-price=5000 data-night-price=100>
+          <article>
+            <h3>United Arab Emirates</h3>
+            <img src="images/emirates.jpg">
+            <a href="#" class="quick-details-btn btn btn-primary">Quick Details</a>
+            <div class="quick-details text-center"></div>
+            <div class="more-details text-center"></div>
+            <div class="get-ticket text-center"></div>
+            <a href="#" class="less-details-btn btn btn-default">Less details</a>
+          </article>
+        </section>
+        <!--
+**************************************
+MOROCCO
+**************************************
+--> 
+        <section class="morocco country col-md-5 col-md-offset-2" data-go-back-price=4000 data-go-only-price=3000 data-night-price=40>
+          <article>
+            <h3>Morocco</h3>
+            <img src="images/morocco.jpg">
+            <a href="#" class="quick-details-btn btn btn-primary">Quick Details</a>
+            <div class="quick-details text-center"></div>
+            <div class="more-details text-center"></div>
+            <a href="#" class="less-details-btn btn btn-default">Less details</a>
+          </article>
+        </section>
+      </div>
+      <!--
+**************************************
+RUSSIA
+**************************************
+--> 
+      <div class="row">
+        <section class="russia country col-md-5" data-go-back-price=12000 data-go-only-price=10000 data-night-price=50>
+          <article>
+            <h3>Russia</h3>
+            <img src="images/russia.jpg">
+            <a href="#" class="quick-details-btn btn btn-primary">Quick Details</a>
+            <div class="quick-details text-center"></div>
+            <div class="more-details text-center"></div>
+            <a href="#" class="less-details-btn btn btn-default">Less details</a>
+          </article>
+        </section>
+        <!--
+**************************************
+CHINA
+**************************************
+--> 
+        <section class="china country col-md-5 col-md-offset-2" data-go-back-price=15000 data-go-only-price=11000 data-night-price=75>
+          <article>
+            <h3>China</h3>
+            <img src="images/china.jpg">
+            <a href="#" class="quick-details-btn btn btn-primary">Quick Details</a>
+            <div class="quick-details text-center"></div>
+            <div class="more-details text-center"></div>
+            <a href="#" class="less-details-btn btn btn-default">Less details</a>
+          </article>
+        </section>
+      </div>
+      <!--
+**************************************
+FRANCE
+**************************************
+--> 
+      <div class="row">
+        <section class="france country col-md-5" data-go-back-price=8500 data-go-only-price=7000 data-night-price=150>
+          <article>
+            <h3>France</h3>
+            <img src="images/france.jpg">
+            <a href="#" class="quick-details-btn btn btn-primary">Quick Details</a>
+            <div class="quick-details text-center"></div>
+            <div class="more-details text-center"></div>
+            <a href="#" class="less-details-btn btn btn-default">Less details</a>
+          </article>
+        </section>
+        <!--
+**************************************
+ENGLAND
+**************************************
+--> 
+        <section class="england country col-md-5 col-md-offset-2" data-go-back-price=9000 data-go-only-price=8000 data-night-price=100>
+          <article>
+            <h3>England</h3>
+            <img src="images/england.jpg">
+            <a href="#" class="quick-details-btn btn btn-primary">Quick Details</a>
+            <div class="quick-details text-center"></div>
+            <div class="more-details text-center"></div>
+            <a href="#" class="less-details-btn btn btn-default">Less details</a>
+          </article>
+        </section>
+      </div>
+    </div>
+    <!--
+**************************************
+FOOTER
+**************************************
+-->
+    <footer class="text-center">
+      <p>get your NEXT TRIP with us <br>
+        Design &amp; Development by MOHAMED RAGAB all rights reserved</p>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/application.js"></script>
+    </footer>
+  </body>
+</html>
